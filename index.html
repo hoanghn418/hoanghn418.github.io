@@ -1,8 +1,180 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DevBlog - Hoang's Personal Blog</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/favicon.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.min.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;900&display=swap" rel="stylesheet">
+</head>
+
+<body class="light-theme">
+
+  <!--
+    - #HEADER
+  -->
+
   <header>
-    <title>hoanghn418</title>
+
+    <div class="container">
+
+      <nav class="navbar">
+
+        <a href="#">
+          <img src="./assets/images/logo-light.svg" alt="Devblog's logo" width="150" height="40" class="logo-light">
+          <img src="./assets/images/logo-dark.svg" alt="Devblog's logo" width="150" height="40" class="logo-dark">
+        </a>
+
+        <div class="btn-group">
+
+          <button class="theme-btn theme-btn-mobile light">
+            <ion-icon name="moon" class="moon"></ion-icon>
+            <ion-icon name="sunny" class="sun"></ion-icon>
+          </button>
+
+          <button class="nav-menu-btn">
+            <ion-icon name="menu-outline"></ion-icon>
+          </button>
+
+        </div>
+
+        <div class="flex-wrapper">
+
+          <ul class="desktop-nav">
+
+            <li>
+              <a href="#" class="nav-link">Home</a>
+            </li>
+
+            <li>
+              <a href="#" class="nav-link">About Me</a>
+            </li>
+
+            <li>
+              <a href="#" class="nav-link">Contact</a>
+            </li>
+
+          </ul>
+
+          <button class="theme-btn theme-btn-desktop light">
+            <ion-icon name="moon" class="moon"></ion-icon>
+            <ion-icon name="sunny" class="sun"></ion-icon>
+          </button>
+
+        </div>
+
+        <div class="mobile-nav">
+
+          <button class="nav-close-btn">
+            <ion-icon name="close-outline"></ion-icon>
+          </button>
+
+          <div class="wrapper">
+
+            <p class="h3 nav-title">Main Menu</p>
+
+            <ul>
+              <li class="nav-item">
+                <a href="#" class="nav-link">Home</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#" class="nav-link">About Me</a>
+              </li>
+
+              <li class="nav-item">
+                <a href="#" class="nav-link">Contact</a>
+              </li>
+            </ul>
+
+          </div>
+
+        </div>
+
+      </nav>
+
+    </div>
+
   </header>
-  <body>
-    <h1>hoanghn418</h1>
-  </body>
+
+  <main>
+
+    <!--
+      - #HERO SECTION
+    -->
+
+    <div class="hero">
+
+      <div class="container">
+
+        <div class="left">
+
+          <h1 class="h1">
+            Hi, I'm <b>Hoang</b>.
+            <br>Mobile Developer
+          </h1>
+
+          <p class="h3">
+            Specialized in Android and Flutter
+          </p>
+
+          <div class="btn-group">
+            <a href="#" class="btn btn-primary">Contact Me</a>
+            <a href="#" class="btn btn-secondary">About Me</a>
+          </div>
+
+        </div>
+
+        <div class="right">
+
+          <div class="pattern-bg"></div>
+          <div class="img-box">
+            <img src="./assets/images/hero.png" alt="Hoang" class="hero-img">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </main>
+
+  <!--
+    - #FOOTER
+  -->
+
+  <footer>
+    <p class="copyright">
+      &copy; Copyright 2022 <a href="#">codewithabc</a>
+    </p>
+
+  </footer>
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.min.js"></script>
+
+</body>
+
 </html>
